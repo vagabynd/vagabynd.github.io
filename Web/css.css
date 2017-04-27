@@ -1,0 +1,172 @@
+html {
+    min-height: 100%;
+    font-family: sans-serif;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    margin: 0;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+header {
+    width: 100%;
+    max-width: 960px;
+    min-width: 430px;
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main {
+    width: 100%;
+    max-width: 960px;
+    min-width: 430px;
+    margin: auto;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+footer {
+    width: 100%;
+    max-width: 960px;
+    min-width: 430px;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.logo {
+    margin-bottom: 10px;
+}
+nav {
+    width: 60%;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+li {
+    padding-right: 5px;
+    list-style-type: none;
+}
+a:link {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+a:visited {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+a:hover{
+    color: blue;
+}
+.info {
+    margin: -10px 0 0 0;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url("images/topfon.jpg") no-repeat 100% 100%;
+    background-size: 100% 420px;
+    max-width: 960px;
+    min-width: 430px;
+}
+video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.number{
+    display: flex;
+    align-items: flex-start;
+
+}
+p#code {
+    font-size: 22px;
+}
+p#num {
+    margin: 10px;
+    font-size: 42px;
+}
+a#mail {
+    display: block;
+    font-size: 20px;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+a.trans:link {
+    color: blue;
+    font-size: 22px;
+}
+a.trans:visited {
+    color: blue;
+    font-size: 22px;
+}
+a.trans:hover {
+    color: darkblue;
+    font-size: 22px;
+}
+.img {
+    margin-right: 15px;
+}
+.img1 {
+    margin-right: 11px;
+}
+h2 {
+    white-space: pre;
+    margin-top: 40px;
+}
+.tex {
+    white-space: pre;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.line {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.maintext{
+    display: inline-flex;
+}
+.grey{
+    margin: 0;
+    color: grey;
+}
+p.price {
+    margin-left: 8px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.img2 {
+    margin-left: 30px;
+}
+.imagePrice {
+    width: 100%;
+    min-width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+.driver, .wife, .student, .passport {
+    width: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
