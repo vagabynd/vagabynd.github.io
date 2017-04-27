@@ -37,6 +37,7 @@ footer {
     margin: auto;
     padding: 15px;
     box-sizing: border-box;
+    background-color: lightgrey;
 }
 .logo {
     margin-bottom: 10px;
@@ -168,5 +169,19 @@ p.price {
     justify-content: center;
 
 }
-
-
+.adres {
+    font-size: 12px;
+}
+.num {
+    display: flex;
+    align-items: flex-start;
+}
+p#ned{
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p#last {
+    margin-top: 0;
+    margin-left: 75%;
+}
